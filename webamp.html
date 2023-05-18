@@ -1,0 +1,46 @@
+<!--Since I do not have Neocities Supporter, all of my mp3 files and webamp skin files are stored on catbox.moe -->
+
+<div style="width:40px; height:40px; position:absolute; bottom:0px; left:0px;"> <!--COLLAPSE HERE -->
+  	<div id="winamp-container"></div>
+      <script>
+  const Winamp = window.Webamp;
+  // All configuration options are optional.
+  const webamp = new Webamp({
+      // Optional.
+      initialTracks: [
+          {
+              metaData: {
+                  artist: "Lamp",
+                  title: "Place in my dream",
+              },
+              url: "https://files.catbox.moe/w266ah.mp3",
+          }, {
+              metaData: {
+                  artist: "Lamp",
+                  title: "二十歳の恋",
+              },
+              url: "https://files.catbox.moe/3n545d.mp3",
+          },
+          {
+              metaData: {
+                  artist: "Astrud Gilberto",
+                  title: "The Girl From Ipanema",
+              },
+              url: "https://files.catbox.moe/wsjqw5.mp3",
+          },
+          {
+              metaData: {
+                  artist: "Cocteau Twins",
+                  title: "Sea, Swallow Me",
+              },
+              url: "https://files.catbox.moe/kbx69y.mp3",
+              },
+        ],
+      initialSkin: {
+          url: "https://files.catbox.moe/8dq9o8.wsz"
+      },
+  });
+  webamp.renderWhenReady(document.getElementById('winamp-container'));
+  </script>
+  </div>
+
